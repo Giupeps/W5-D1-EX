@@ -12,7 +12,7 @@ function getDate() {
 
  //Mostrare elementi singoli della data
  document.getElementById('day').innerHTML = `Giorno:${todayDate.getDate()}`
- document.getElementById('month').innerHTML = `Mese:${todayDate.getMonth()}`
+ document.getElementById('month').innerHTML = `Mese:${todayDate.getMonth()+1}`
  document.getElementById('year').innerHTML = `Anno:${todayDate.getFullYear()}`
  document.getElementById('hour').innerHTML = `Ora:${todayDate.getHours()}`
  document.getElementById('minute').innerHTML = `Minuti:${todayDate.getMinutes()}`
